@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto", sans-serif;
+$modal-content-width: 70%;
+$primary: #ee020e;
+
+html {
+	scroll-behavior: smooth;
+}
+
+@import "~bulma/bulma.sass";
