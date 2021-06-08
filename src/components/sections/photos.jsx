@@ -4,7 +4,6 @@ import Gallery from "../gallery";
 import SectionTitle from "../utils/sectionTitle";
 import Anchor from "../utils/anchor";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCamera } from "@fortawesome/free-solid-svg-icons";
 import { faFlickr } from "@fortawesome/free-brands-svg-icons";
 
 export default function Photos() {
@@ -54,12 +53,7 @@ export default function Photos() {
 			<Anchor id="photos" />
 			<div className="container">
 				<SectionTitle>
-					photos(
-					<FontAwesomeIcon
-						className="has-text-primary"
-						icon={faCamera}
-					/>
-					)
+					Photos
 				</SectionTitle>
 				<div className="tabs is-centered is-fullwidth">
 					<ul>

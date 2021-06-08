@@ -8,7 +8,10 @@ export default function MarcoForsterCh() {
 		<div className="card">
 			<div className="card-image">
 				<figure className="image is-16by9">
-					<img src="https://i.imgur.com/B9uSRNP.png" />
+					<img
+						src="https://i.imgur.com/B9uSRNP.png"
+						alt="Cover for marcoforster.ch"
+					/>
 				</figure>
 			</div>
 			<div className="card-content">

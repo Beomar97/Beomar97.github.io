@@ -2,8 +2,6 @@ import React from "react";
 import Layout from "../utils/layout";
 import SectionTitle from "../utils/sectionTitle";
 import Anchor from "../utils/anchor";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default function Videos() {
 	return (
@@ -11,18 +9,14 @@ export default function Videos() {
 			<Anchor id="videos" />
 			<div className="container">
 				<SectionTitle>
-					videos(
-					<FontAwesomeIcon
-						className="has-text-primary"
-						icon={faYoutube}
-					/>
-					)
+					Videos
 				</SectionTitle>
 				<div className="columns">
 					<div className="column">
 						<figure className="image is-16by9">
 							<iframe
 								className="has-ratio"
+								title="Annapurna Circuit August 2019"
 								src="https://www.youtube.com/embed/H_w5y_6e-Gs"
 								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 								allowFullScreen

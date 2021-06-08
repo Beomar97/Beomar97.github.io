@@ -29,24 +29,25 @@ export default function Header() {
 				</a>
 			</div>
 			<div id="navbar" className="navbar-menu">
-				<div className="navbar-start" style={{ fontFamily: "courier" }}>
+				<div className="navbar-start">
 					<a className="navbar-item" href="#about">
-						.about()
+						About
 					</a>
 					<a className="navbar-item" href="#photos">
-						.photos()
+						Photos
 					</a>
 					<a className="navbar-item" href="#videos">
-						.videos()
+						Videos
 					</a>
 					<a className="navbar-item" href="#code">
-						.code()
+						Coding
 					</a>
 				</div>
 
 				<div className="navbar-end">
 					<a
 						className="navbar-item"
+						aria-label="GitHub Link"
 						href="https://github.com/Beomar97">
 						<span className="icon fa-lg">
 							<FontAwesomeIcon icon={faGithub} />
@@ -54,6 +55,7 @@ export default function Header() {
 					</a>
 					<a
 						className="navbar-item"
+						aria-label="LinkedIn Link"
 						href="https://www.linkedin.com/in/marco-forster/">
 						<span className="icon fa-lg">
 							<FontAwesomeIcon icon={faLinkedin} />
@@ -61,6 +63,7 @@ export default function Header() {
 					</a>
 					<a
 						className="navbar-item"
+						aria-label="Xing Link"
 						href="https://www.xing.com/profile/Marco_Forster15/">
 						<span className="icon fa-lg">
 							<FontAwesomeIcon icon={faXing} />

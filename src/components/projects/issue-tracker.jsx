@@ -8,7 +8,10 @@ export default function IssueTracker() {
 		<div className="card">
 			<div className="card-image">
 				<figure className="image is-16by9">
-					<img src="https://i.imgur.com/mILT9fD.png" />
+					<img
+						src="https://i.imgur.com/mILT9fD.png"
+						alt="Cover for issue-tracker"
+					/>
 				</figure>
 			</div>
 			<div className="card-content">

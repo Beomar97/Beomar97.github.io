@@ -9,7 +9,10 @@ export default function RaceTrack() {
 		<div className="card">
 			<div className="card-image">
 				<figure className="image is-16by9">
-					<img src="https://i.imgur.com/yc1eTDG.jpg" />
+					<img
+						src="https://i.imgur.com/yc1eTDG.jpg"
+						alt="Cover for RaceTrack"
+					/>
 				</figure>
 			</div>
 			<div className="card-content">
@@ -32,7 +35,9 @@ export default function RaceTrack() {
 					<div className="field has-addons">
 						<p className="control">
 							<a href="http://dublin.zhaw.ch/~tsengmar/package/RaceTrack_Windows64.zip">
-								<button className="button is-dark is-outlined">
+								<button
+									className="button is-dark is-outlined"
+									aria-label="Download for Windows">
 									<span className="icon fa-lg">
 										<FontAwesomeIcon icon={faWindows} />
 									</span>
@@ -41,7 +46,9 @@ export default function RaceTrack() {
 						</p>
 						<p className="control">
 							<a href="http://dublin.zhaw.ch/~tsengmar/package/RaceTrack%201.0.dmg">
-								<button className="button is-dark is-outlined">
+								<button
+									className="button is-dark is-outlined"
+									aria-label="Download for macOS">
 									<span className="icon is-small">
 										<span className="icon fa-lg">
 											<FontAwesomeIcon icon={faApple} />

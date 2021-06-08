@@ -13,17 +13,23 @@ export default function Picture(props) {
 	return (
 		<div className="container">
 			<figure className="image is-3by2">
-				<img src={props.src} alt={props.alt} onClick={toggleClicked} />
+				<img
+					src={props.src}
+					alt="Gallery Image"
+					onClick={toggleClicked}
+				/>
 			</figure>
 			<div className={clicked ? "modal is-active" : "modal"}>
-				<div className="modal-background" onClick={toggleClicked}></div>
+				<div className="modal-background"
+					 onClick={toggleClicked} />
 				<div className="modal-content">
-					<img src={props.src} alt={props.alt} />
+					<img src={props.src}
+						 alt="Modal of Gallery Image" />
 				</div>
 				<button
 					className="modal-close is-large"
 					aria-label="close"
-					onClick={toggleClicked}></button>
+					onClick={toggleClicked} />
 			</div>
 		</div>
 	);

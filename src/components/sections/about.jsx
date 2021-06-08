@@ -2,8 +2,6 @@ import React from "react";
 import Layout from "../utils/layout";
 import SectionTitle from "../utils/sectionTitle";
 import Anchor from "../utils/anchor";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserGraduate } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
 	return (
@@ -11,17 +9,15 @@ export default function About() {
 			<Anchor id="about" />
 			<div className="container">
 				<SectionTitle>
-					about(
-					<FontAwesomeIcon
-						className="has-text-primary"
-						icon={faUserGraduate}
-					/>
-					)
+					About
 				</SectionTitle>
 				<div className="columns">
 					<div className="column">
 						<figure className="image">
-							<img src="https://live.staticflickr.com/65535/51065373466_3166f82c5e_b.jpg" />
+							<img
+								src="https://live.staticflickr.com/65535/51065373466_3166f82c5e_b.jpg"
+								alt="Me at Thorung La Pass, Nepal"
+							/>
 						</figure>
 					</div>
 					<div className="column">
